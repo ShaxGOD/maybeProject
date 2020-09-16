@@ -30,7 +30,6 @@
         android:ems="10"
         android:hint="@string/usernamehint"
         android:inputType="textPersonName"
-        android:text="Yo"
         android:textColor="@color/textColor"
         android:textSize="20dp"
         android:drawableLeft="@drawable/ic_action_user"/>
@@ -45,7 +44,6 @@
         android:ems="10"
         android:hint="@string/passwordhint"
         android:inputType="textPassword"
-        android:text="Yo"
         android:textSize="20dp"
         android:textColor="@color/textColor"
         android:drawableLeft="@drawable/ic_action_password"/>
@@ -58,6 +56,7 @@
         android:layout_marginTop="30dp"
         android:text="@string/buttonText"
         android:textFontWeight="900"
-        android:textSize="23dp" />
+        android:textSize="23dp"
+        android:onClick="onSendLoginInfo"/>
 
 </LinearLayout>

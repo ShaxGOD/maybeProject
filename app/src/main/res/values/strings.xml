@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">MaybeProject</string>
-    <string name = "usernamehint">Username</string>
+    <string name="usernamehint">Username</string>
     <string name="passwordhint">Password</string>
     <string name="buttonText">Login</string>
+    <string name="returnButton">Return</string>
+    <string name="aboutText">Shax\'s wine bar - is a unique symbiosis of a city and a wine salon, the peculiarity of which is that you can buy wine and taste it directly in the institution. \nThe menu features dishes in the original interpretation of our chef. \nShax\'s wine bar - is an ideal place to meet friends and colleagues in the pleasant atmosphere of a city cafe.</string>
+<string name="moreButton">More</string>
+    <string name="startButton">Start</string>
+    <string name="aboutBar">Some information about us</string>
 </resources>
