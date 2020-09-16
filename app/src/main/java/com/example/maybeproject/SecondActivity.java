@@ -19,7 +19,11 @@ String gotUsername;
         usernameTextView.setText("Welcome, "+gotUsername + " :)");
     }
     public void returnToLoginPage(View view) {
-        Intent myintent = new Intent(SecondActivity.this, MainActivity.class);
-        startActivity(myintent);
+        Intent intent = new Intent(SecondActivity.this, MainActivity.class);
+        startActivity(intent);
     }
+public void onDirectToAboutCafe(View view) {
+    Intent toAboutCafeIntent = new Intent(SecondActivity.this, AboutCafe.class);
+    startActivity(toAboutCafeIntent);
+}
 }

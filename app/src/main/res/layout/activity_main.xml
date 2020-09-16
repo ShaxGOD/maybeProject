@@ -50,13 +50,15 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="190dp"
-        android:layout_height="49dp"
+        android:layout_width="165dp"
+        android:layout_height="32dp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_background"
+        android:onClick="onSendLoginInfo"
         android:text="@string/buttonText"
+        android:textColor="@color/textColor"
         android:textFontWeight="900"
-        android:textSize="23dp"
-        android:onClick="onSendLoginInfo"/>
+        android:textSize="20dp" />
 
 </LinearLayout>
