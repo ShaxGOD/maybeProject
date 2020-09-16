@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="157dp"
+        android:layout_height="147dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="250dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@color/backgroundInput"
+        android:ems="10"
+        android:hint="@string/usernamehint"
+        android:inputType="textPersonName"
+        android:text="Yo"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_action_user"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="250dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/backgroundInput"
+        android:ems="10"
+        android:hint="@string/passwordhint"
+        android:inputType="textPassword"
+        android:text="Yo"
+        android:textSize="20dp"
+        android:textColor="@color/textColor"
+        android:drawableLeft="@drawable/ic_action_password"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="190dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/buttonText"
+        android:textFontWeight="900"
+        android:textSize="23dp" />
+
+</LinearLayout>
